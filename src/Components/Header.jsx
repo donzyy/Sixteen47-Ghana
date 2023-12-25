@@ -18,7 +18,7 @@ function Header() {
             <img className='h-20 w-20' src="/sixteen47.jpg" alt="Sixteen47-Ghana Logo" />
           </Link>
           <button className='text-SixteenBlack outline-none sm:hidden' onClick={toggleMenu}>
-            <BsList />
+            <BsList size={30} />
           </button>
         </div>
         <ul className={`${ menuOpen ? 'block' : 'hidden'} bg-SixteenWhite shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border sm:shadow-none sm:block sm:border-0 sm:mt-0 sm:static sm:w-auto`}>
