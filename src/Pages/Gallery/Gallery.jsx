@@ -1,12 +1,11 @@
 import React from 'react'
 import DefaultLayout from '../../Layout/DefaultLayout'
 
-function FAQ() {
+function Gallery() {
   return (
     <DefaultLayout>
-        
         {/* Header Tile */}
-        <div className="relative bg-indigo-800">
+<div className="relative bg-indigo-800">
       <div className="absolute inset-0">
         <img
           className="h-full w-full object-cover"
@@ -24,9 +23,8 @@ function FAQ() {
       </div>
     </div>
     {/* Header Tile */}
-
     </DefaultLayout>
   )
 }
 
-export default FAQ
+export default Gallery
