@@ -1,20 +1,16 @@
 import React from 'react'
 import DefaultLayout from '../../Layout/DefaultLayout'
 import { Link } from 'react-router-dom'
-import { Disclosure } from '@headlessui/react'
-import { BsChevronDown, BsChevronUp } from 'react-icons/bs'
+import LogoCloud from '../../Components/LogoCloud'
+import FAQ2 from '../FAQ/FAQ2'
+import AboutUsLanding from '../../Components/AboutUsLanding'
+import StatsboardLanding from '../../Components/StatsboardLanding'
+import GalleryLanding from '../../Components/GalleryLanding'
 
 
 function LandingPage() {
 
-  const faqs = [
-    {
-      question: "What's the best thing about Switzerland?",
-      answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    // More questions...
-  ]
+  
 
   return (
     <DefaultLayout>
@@ -51,181 +47,25 @@ function LandingPage() {
     {/* Hero Section */}
 
     {/* Gallery Section */}
-    <div className="relative overflow-hidden bg-white">
-      <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-        <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-          <div className="sm:max-w-lg">
-            <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Summer styles are finally here
-            </h1>
-            <p className="mt-4 text-xl text-gray-500">
-              This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-              if you live or die.
-            </p>
-          </div>
-          <div>
-            <div className="mt-10">
-              {/* Decorative image grid */}
-              <div
-                aria-hidden="true"
-                className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
-              >
-                <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                  <div className="flex items-center space-x-6 lg:space-x-8">
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <Link to={'/gallery'}> <a className="inline-block rounded-md border border-transparent bg-SixteenBlack py-3 px-8 text-center font-medium text-white hover:bg-SixteenGold">
-                Gallery
-              </a> </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <GalleryLanding /> 
     {/* Gallery Section */}
 
    {/* Stat Board */}
-   <div className="bg-SixteenGold">
-      <div className="mx-auto max-w-7xl py-12 px-6 sm:py-16 lg:px-8 lg:py-20">
-        <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Trusted by developers from over 80 planets
-          </h2>
-          <p className="mt-3 text-xl text-SixteenBlack sm:mt-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
-          </p>
-        </div>
-        <dl className="mt-10 text-center sm:mx-auto sm:grid sm:max-w-3xl sm:grid-cols-3 sm:gap-8">
-          <div className="flex flex-col">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-SixteenBlack">Pepperoni</dt>
-            <dd className="order-1 text-5xl font-bold tracking-tight text-white">100%</dd>
-          </div>
-          <div className="mt-10 flex flex-col sm:mt-0">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-SixteenBlack">Delivery</dt>
-            <dd className="order-1 text-5xl font-bold tracking-tight text-white">24/7</dd>
-          </div>
-          <div className="mt-10 flex flex-col sm:mt-0">
-            <dt className="order-2 mt-2 text-lg font-medium leading-6 text-SixteenBlack">Calories</dt>
-            <dd className="order-1 text-5xl font-bold tracking-tight text-white">100k+</dd>
-          </div>
-        </dl>
-      </div>
-    </div>
+   <StatsboardLanding/>
    {/* Stat Board */}
 
+      {/* About Us Landing */}
+      <AboutUsLanding />
+      {/* About Us Landing */}
 
-   {/* FAQ */}
-  {/*  <div className='grid divide-y divide-neutral-200 max-w-xl mx-auto -mt-5 sm:mt mb-7'>
+      {/* FAQ */}
+      {/* <FAQ2/> */}
+      {/* FAQ */}
 
-   <div class="mx-auto max-w-7xl px-6 py-24 sm:py-12 lg:py-13 lg:px-8">
-      <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
-    </div>
-
-    <div className='mx-auto py-5'>
-      <details className='group'>
-        <summary className='flex justify-between items-center font-medium cursor-pointer list-none'>
-          <span className='font-semibold text-SixteenBlack text-2xl'>Frequently Asked Question</span>
-          <span className='transition group-open:rotate-180  text-SixteenGold'><BsChevronDown size={24} shapeRendering='geometricPrecision'/></span>
-        </summary>
-        <p className='mt-4.5 group-open:animate-fadeIn'>Plenty Things are scaring me</p>
-      </details>
-    </div>
-
-
-    
-
-   </div> */}
-
-<div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:py-40 lg:px-8">
-        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
-          <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-            {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="pt-6">
-                {({ open }) => (
-                  <>
-                    <dt>
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                        <span className="text-base font-semibold leading-7">{faq.question}</span>
-                        <span className="ml-6 flex h-7 items-center">
-                          {open ? (
-                            <BsChevronUp className="h-6 w-6" aria-hidden="true" />
-                          ) : (
-                            <BsChevronDown className="h-6 w-6" aria-hidden="true" />
-                          )}
-                        </span>
-                      </Disclosure.Button>
-                    </dt>
-                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-            ))}
-          </dl>
-        </div>
-      </div>
-    </div>
-   {/* FAQ */}
+      {/* LogoCloud */}
+      <LogoCloud />
+      {/* LogoCloud */}
+   
     </DefaultLayout>
   )
 }

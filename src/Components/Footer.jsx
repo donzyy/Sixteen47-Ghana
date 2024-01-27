@@ -4,13 +4,23 @@ import { BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 
 
 function Footer() {
+  const footerNav = [
+    {title: "About Us", path: "/"},
+    {title: "Contact Us", path: "/"},
+    {title: "Corporate Responsibility", path: "/"},
+    {title: "News", path: "/"},
+    {title: "Gallery", path: "/"},
+    {title: "FAQ", path: "/"},
+    {title: "Get A Quote", path: "/"},
+  ]
+
   return (
     
     <footer className="mt-24 bg-SixteenBlack sm:mt-12">
     <div className="mx-auto max-w-md overflow-hidden py-12 px-6 sm:max-w-3xl lg:max-w-7xl lg:px-8">
       <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
         
-          <div className="px-5 py-2">
+          {/* <div className="px-5 py-2">
            <Link to={'/faq'}> <a  className="text-base text-SixteenWhite hover:text-SixteenGold"> 
             FAQ
             </a>
@@ -36,6 +46,12 @@ function Footer() {
             Gallery
             </a>
             </Link>
+          </div> */}
+
+          <div className='px-5 py-2'>
+            {footerNav.map((item, index) => (
+              <Link key={index} to={item.path} className='text-base text-SixteenWhite hover:text-SixteenGold'> {item.title} </Link>
+            ))}
           </div>
        
       </nav>

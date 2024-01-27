@@ -1,37 +1,87 @@
 import React, { useState } from 'react'
-import { BsList } from 'react-icons/bs';
+import { BsList, BsX } from 'react-icons/bs';
 import { Link } from 'react-router-dom'
+import Banner from './Banner';
 
 function Header() {
 
-  const [menuOpen, setMenuOpen] =useState(false)
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  const [menu, setMenu]= useState(false)
+
+  const headerNav = [
+    {title: "Home", path: "/"},
+    {title: "About Us", path: "/"},
+    {title: "Corporate Responsibility", path:"/"},
+    {title: "News", path:"/"},
+    {title: "Gallery", path:"/"},
+    {title: "Contact Us", path:"/"}
+  ]
+ 
 
   return (
-    <header>
-      <nav className='relative items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6'>
-        <div className='flex justify-between'>
-          <Link to={'/'}>
-            <img className='h-20 w-20' src="/sixteen47.jpg" alt="Sixteen47-Ghana Logo" />
-          </Link>
-          <button className='text-SixteenBlack outline-none sm:hidden' onClick={toggleMenu}>
-            <BsList size={30} />
+   <>
+   <Banner />
+   <nav className='bg-white w-full border-b lg:border-0 lg:static'>
+    <div className='items-center px-4 max-w-screen-xl mx-auto lg:flex lg:px-8'>
+      <div className='flex items-center justify-between py-3 lg:py-5 lg:block'>
+        <Link to="/">
+          <img src="/sixteen47.jpg" width={120}  height={50} alt="Sixteen47 Logo" />
+        </Link>
+
+        <div className='lg:hidden'>
+          <button className='text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border' onClick={()=> setMenu(!menu)}>
+            {
+              menu ? (
+                <BsX size={40} fill='currentColor' />
+              ) : (
+                <BsList size={40} fill='currentColor' />
+              )
+            }
           </button>
         </div>
-        <ul className={`${ menuOpen ? 'block' : 'hidden'} bg-SixteenWhite shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border sm:shadow-none sm:block sm:border-0 sm:mt-0 sm:static sm:w-auto`}>
-          <div className='order-1 justify-end items-center space-y-5 sm:flex sm:space-x-6 sm:space-y-0'>
-          <Link to={'/'}> <li className='text-SixteenGold hover:text-SixteenBlack border border-SixteenGold rounded-3xl px-4 py-2 '>Home</li> </Link>
-          <Link to={'/contactus'}>  <li className='text-SixteenBlack hover:text-SixteenGold'>Contact Us</li> </Link>
-           <Link to={'/aboutus'}> <li className='text-SixteenBlack hover:text-SixteenGold'>About Us</li> </Link>
-           <Link to={'/gallery'}> <li className='text-SixteenBlack hover:text-SixteenGold'>Gallery</li> </Link>
-            
-          </div>
-        </ul>
-      </nav>
-    </header>
+      </div>
+
+      <div className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${ menu ? 'block' : 'hidden'}`}>
+        {/* <ul className='justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0'>
+          {
+            //map through the array of objects and create a list item for each one
+            headerNav.map((item, index)=>{
+              return(
+                <li key={index} className='text-SixteenBlack  font-medium hover:text-SixteenGold'>
+                  <Link to={item.path}>{item.title}</Link>
+                </li>
+              )
+            })
+          }
+        </ul> */}
+        <ul className='justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0'>
+              {headerNav.map((item, index) => (
+                <li key={index} className='text-SixteenBlack font-medium text-center hover:text-SixteenGold'>
+                  <Link to={item.path}>{item.title}</Link>
+                </li>
+              ))}
+              {/* Move the "Get a Quote" button inside the mobile view menu */}
+              <li className='py-3 text-center font-bold text-white bg-SixteenGold rounded-md shadow lg:hidden'>
+                <Link to='/faq'>
+                  <button>
+                    Get a Quote
+                  </button>
+                </Link>
+              </li>
+            </ul>
+      </div>
+
+      <div className='hidden lg:inline-block'>
+        <Link to="/faq" className='py-3 px-4 font-bold text-white bg-SixteenGold rounded-md shadow'>
+          <button>
+            Get a Quote
+          </button>
+        </Link>
+      </div>
+
+    </div>
+   </nav>
+   </>
   )
 }
 

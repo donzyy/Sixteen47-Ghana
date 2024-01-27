@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sixteen47_image_banners",
+  "info": {
+    "singularName": "sixteen47-image-banner",
+    "pluralName": "sixteen47-image-banners",
+    "displayName": "Sixteen47ImageBanner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ImageHeader": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImageBinnerTitle": {
+      "type": "string"
+    },
+    "ImageBannerDescription": {
+      "type": "text"
+    }
+  }
+}

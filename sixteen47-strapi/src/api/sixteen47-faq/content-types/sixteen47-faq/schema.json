@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sixteen47_faqs",
+  "info": {
+    "singularName": "sixteen47-faq",
+    "pluralName": "sixteen47-faqs",
+    "displayName": "Sixteen47FAQ"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FAQHeader": {
+      "type": "string"
+    },
+    "FAQDescription": {
+      "type": "text"
+    }
+  }
+}

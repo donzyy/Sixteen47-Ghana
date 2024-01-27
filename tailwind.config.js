@@ -13,6 +13,7 @@ export default {
         'SixteenGold': '#fbca27',
         'SixteenBlack': '#010101',
         'SixteenWhite': '#ffffff',
+        'SixteenSlate':'#343434',
       },
       screens: {
         '2xsm': '375px',

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sixteen47_homes",
+  "info": {
+    "singularName": "sixteen47-home",
+    "pluralName": "sixteen47-homes",
+    "displayName": "Sixteen47Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Test": {
+      "type": "string"
+    }
+  }
+}
