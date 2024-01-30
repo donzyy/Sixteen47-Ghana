@@ -9,6 +9,7 @@ import GalleryLanding from '../../Components/GalleryLanding'
 import CorporateResponsibilityLanding from '../../Components/CorporateResponsibilityLanding'
 import HeroLanding from '../../Components/HeroLanding'
 import NewsLanding from '../../Components/NewsLanding'
+import LogoCloud2 from '../../Components/LogoCloud2'
 
 
 function LandingPage() {
@@ -44,6 +45,7 @@ function LandingPage() {
 
       {/* LogoCloud */}
       <LogoCloud />
+      <LogoCloud2/>
       {/* LogoCloud */}
 
       {/*  */}
