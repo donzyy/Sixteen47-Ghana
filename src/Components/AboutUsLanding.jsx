@@ -3,7 +3,7 @@ import React from 'react'
 function AboutUsLanding() {
   const aboutUsInfo = {
     title: [
-      {subtitle: 'Sixteen47-Ghana',information: "Sixteen47 Ghana Limited, is a wholly Ghanaian-owned enterprise specializing in apparel design, manufacturing, and export. With an impressive track record spanning two decades, Sixteen47 has traditionally specialized in the production of uniforms for esteemed clients such as the Forestry Commission, the Sanitation Agency, and the government's school uniform program within the markey. The company owns labels such as ouadrago, swanky, and sixteen47 that permiate on both the global market."}
+      {subtitle: 'Sixteen47-Ghana',information: "Sixteen47 Ghana Limited, is a wholly Ghanaian-owned enterprise specializing in apparel design, manufacturing, and export. With an impressive track record spanning two decades, Sixteen47 has traditionally specialized in the production of uniforms for esteemed clients such as the Forestry Commission, the Sanitation Agency, and the government's school uniform program within the local market. The company owns labels such as Oudraogo, Swanky, and Sixteen47 that permeates the global market."}
     ]
   }
 
