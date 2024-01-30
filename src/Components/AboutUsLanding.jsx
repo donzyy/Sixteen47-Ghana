@@ -3,7 +3,7 @@ import React from 'react'
 function AboutUsLanding() {
   const aboutUsInfo = {
     title: [
-      {subtitle: 'What ever i feel like placing here',information: "All these plenty things about the work. I'm tired rough."}
+      {subtitle: 'Sixteen47-Ghana',information: "Sixteen47 Ghana Limited, is a wholly Ghanaian-owned enterprise specializing in apparel design, manufacturing, and export. With an impressive track record spanning two decades, Sixteen47 has traditionally specialized in the production of uniforms for esteemed clients such as the Forestry Commission, the Sanitation Agency, and the government's school uniform program within the markey. The company owns labels such as ouadrago, swanky, and sixteen47 that permiate on both the global market."}
     ]
   }
 
@@ -28,7 +28,7 @@ function AboutUsLanding() {
               href="#"
               className="rounded-sm bg-SixteenGold px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-SixteenGold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-SixteenBlack"
             >
-              View More
+              Read More
             </a>
           </div>
         </div>
