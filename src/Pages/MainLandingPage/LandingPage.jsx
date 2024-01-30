@@ -47,7 +47,7 @@ function LandingPage() {
       {/* LogoCloud */}
 
       {/*  */}
-      <NewsLanding/>
+      {/* <NewsLanding/> */}
       {/*  */}
    
     </DefaultLayout>

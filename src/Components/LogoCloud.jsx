@@ -7,6 +7,7 @@ function LogoCloud() {
         {logo: 'https://static.wixstatic.com/media/32456b_5de348d9127a4d4cb6620de6814af612~mv2.jpg/v1/fill/w_142,h_61,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/sedex%20smeta.jpg'},
         {logo: 'https://static.wixstatic.com/media/4c5401_003af69a13524088b8a9521ffaf49e6b~mv2.jpg/v1/fill/w_81,h_80,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GIZ.jpg'},
         {logo: 'https://www.agamghana.org/wp-content/uploads/elementor/thumbs/AGAM-logo-qa7k39daha5xk0fw0vrdy9v8enxt9gd53cq5pfm3uo.png'},
+        {logo: 'https://i0.wp.com/gamjobs.com/wp-content/uploads/2020/10/ILO.jpg?resize=200%2C133&ssl=1'},
 
         /* {logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg'},
         {logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg'},
