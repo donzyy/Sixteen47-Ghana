@@ -14,6 +14,7 @@ export default {
         'SixteenBlack': '#010101',
         'SixteenWhite': '#ffffff',
         'SixteenSlate':'#343434',
+        'SixteenLightWhite': '#FFFFF7',
       },
       screens: {
         '2xsm': '375px',
