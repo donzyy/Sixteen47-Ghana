@@ -18,9 +18,9 @@ function Footer3() {
             {name: 'Get a Quote', path: ''},
         ],
         companyInformation: [
-            {Email: 'Email: someting@test.com'},
-            {companyNumber: 'Tel: +233 544 434 2322'},
-            {Location: 'Location: Somewhere in Ghana'},
+            {Email: 'infosixteen47@gmail.com'},
+            {companyNumber: '+233 55 022 7615'},
+            {Location: '47 Kwame Nkrumah Avenue, Adabraka Accra, Ghana.'},
         ],
         /* menu4: [
             {something: '', something: ''},

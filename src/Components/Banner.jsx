@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Banner() {
     const contactInformation = [
-        {Email: "Test Email", Phone: "+233 504 040 4944"},
+        {Email: "infosixteen47@gmail.com", Phone: "+233 55 022 7615"},
     ]
 
     const socialMedial = [
