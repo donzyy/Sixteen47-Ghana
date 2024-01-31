@@ -19,39 +19,34 @@ function LandingPage() {
   return (
     <DefaultLayout>
 
-    {/* Hero Section */}
+      {/* HeroLanding */}
       <HeroLanding />
-    {/* Hero Section */}
+      {/* HeroLanding */}
 
-    {/* Corporate Responsibility Landing */}
-    <CorporateResponsibilityLanding />
-    {/* Corporate Responsibility Landing */}
+      {/* AboutUsLanding */}
+      <AboutUsLanding/>
+      {/* AboutUsLanding */}
 
-    {/* Gallery Section */}
-    <GalleryLanding /> 
-    {/* Gallery Section */}
+      {/* CorporateLanding */}
+      <CorporateResponsibilityLanding/>
+      {/* CorporateLanding */}
 
-    {/* Stat Board */}
-    <StatsboardLanding/>
-    {/* Stat Board */}
+      {/* StatboardLanding */}
+      <StatsboardLanding/>
+      {/* StatboardLanding */}
 
-      {/* About Us Landing */}
-      <AboutUsLanding />
-      {/* About Us Landing */}
+      {/* GalleryLanding */}
+      <GalleryLanding/>
+      {/* GalleryLanding */}
 
-      {/* FAQ */}
-      {/* <FAQ2/> */}
-      {/* FAQ */}
+      {/* LogoCloudLanding */}
+      <LogoCloud/>
+      {/* LogoCloudLanding */}
 
-      {/* LogoCloud */}
-      <LogoCloud />
-      <LogoCloud2/>
-      {/* LogoCloud */}
-
-      {/*  */}
-      {/* <NewsLanding/> */}
-      {/*  */}
-   
+      {/* LogoCloud2Landing */}
+      <LogoCloud2 />
+      {/* LogoCloud2Landing */}
+      
     </DefaultLayout>
   )
 }

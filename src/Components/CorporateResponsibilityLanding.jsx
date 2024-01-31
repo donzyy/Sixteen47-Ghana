@@ -5,25 +5,25 @@ function CorporateResponsibilityLanding() {
     const responsibility = {
         corporateIncentives: [
              {
-                name: 'A Corporate Responsibility',
-                imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
-                description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+                name: 'Vision',
+                imageSrc: 'https://cdn-icons-png.freepik.com/256/2421/2421304.png',
+                description: "To lead, provide best quality products and services to our global customers in fulfilment of our corporate creed of making good clothes in a good way",
             },
             {
-                name: '10-year warranty',
-                imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-                description: "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+                name: 'Mission',
+                imageSrc: 'https://cdn-icons-png.freepik.com/256/3176/3176382.png',
+                description: "To drive product innovation, offer superior design, quality and added values to our business partners and customers",
             },
            {
-                name: 'Exchanges',
-                imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
-                description: "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+                name: 'Ethics',
+                imageSrc: 'https://cdn-icons-png.freepik.com/256/10966/10966244.png?semt=ais',
+                description: "We take pride in achieving recognition for our responsible practices, having met Ethical trading Initiative requirements, we a proud member of sedex . We are ISO9001,2015 certified these were achieved with regular audits conducted by relevant organizations further validate our dedication to ethical and socially responsible operations.",
             },
         ],
         corporateResponsibilityAndTitle: [ 
             {
             title:'Corporate Responsibility',
-            description: 'Something plenty Information here.',
+            description: 'Sixteen47 Ghana is committed to making a positive impact on society through our Corporate Social Responsibility initiatives, focusing on sustainable development, community engagement, and environmental stewardship. We believe in contributing to a brighter and more equitable future for all.',
         },
       ]
     }
@@ -53,7 +53,7 @@ function CorporateResponsibilityLanding() {
                         <img className='h-16 w-16' src={item.imageSrc} alt="" />
                     </div>
                     <div className='mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0'>
-                        <h3 className='text-sm font-medium text-gray-900'>
+                        <h3 className='text-sm font-semibold text-gray-900'>
                             {item.name}
                         </h3>
                         <p className='mt-2 text-sm text-gray-500'>
@@ -65,7 +65,7 @@ function CorporateResponsibilityLanding() {
             </div>
             
             <div className='mt-10 flex items-center justify-center gap-x-6'>
-                    <Link className='bg-SixteenBlack text-white rounded px-4 py-4' to={''}>Read More</Link>
+                    <Link className='bg-SixteenBlack text-white hover:bg-SixteenGold rounded px-4 py-4' to={''}>Read More</Link>
                 </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFacebook, BsInstagram, BsTiktok, BsTwitterX } from 'react-icons/bs'
+import { BsFacebook, BsInstagram, BsTiktok, BsTwitterX, BsYoutube } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 
@@ -29,10 +29,10 @@ function Footer3() {
             {something: '', something: ''},
         ], */
         socialMedia: [
-            {icon: <BsFacebook size={22}/> , path: "https://www.facebook.com"},
-            {icon: <BsInstagram size={22}/> , path: "https://www.instagram.com"},
-            {icon: <BsTwitterX size={22}/> , path: "https://www.twitter.com"},
-            {icon: <BsTiktok size={22}/> , path: "https://www.tiktok.com"},
+            {icon: <BsFacebook size={22}/> , path: "https://www.facebook.com/Sixteen47Ghana/"},
+            {icon: <BsInstagram size={22}/> , path: "https://www.instagram.com/sixteen47store/"},
+            {icon: <BsTiktok size={22}/> , path: "https://www.tiktok.com/@sixteen47official"},
+            {icon: <BsYoutube size={22}/> , path: "https://www.youtube.com/@sixteen47ghltd"},
         ],
         copyRightInformation: [
            {copyInfo:`© ${new Date().getFullYear()} Sixteen47 Ghana. All rights reserved.`,}

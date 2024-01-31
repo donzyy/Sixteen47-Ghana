@@ -2,17 +2,59 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 function GalleryLanding() {
+  const images = {
+    firstSection: [
+      {
+        imgSrc: '/00 - Pictures/Copia di _APA0009.jpg',
+        title: '',
+        des: ''
+      },
+      {
+        imgSrc: '/00 - Pictures/Copia di _DSF0528.jpg',
+        title: '',
+        des: ''
+      },
+    ],
+    secondSection: [
+      {
+        imgSrc: '/01 - Product Pictures/Copia di QURI5368.jpg',
+        title: '',
+        des: ''
+      },
+      {
+        imgSrc: '/00 - Pictures/Copia di _APA0021.jpg',
+        title: '',
+        des: ''
+      },
+      {
+        imgSrc: '/00 - Pictures/Copia di _APA0054.jpg',
+        title: '',
+        des: ''
+      },
+    ],
+    thirdSection: [
+      {
+        imgSrc: '/01 - Product Pictures/Copia di QURI5192.jpg',
+        title: '',
+        des: ''
+      },
+      {
+        imgSrc: '/01 - Product Pictures/Copia di QURI5184.jpg',
+        title: '',
+        des: ''
+      },
+    ]
+  }
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-SixteenLightWhite">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Summer styles are finally here
+              From Vision to Reality
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-              if you live or die.
+              A Gallery Exhibit of Sixteen47's Corporate and Government Ventures
             </p>
           </div>
           <div>
@@ -27,37 +69,14 @@ function GalleryLanding() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                          src="/00 - Pictures/Copia di _APA0009.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                          src="/00 - Pictures/Copia di _DSF0528.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -66,14 +85,37 @@ function GalleryLanding() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                          src="/01 - Product Pictures/Copia di QURI5368.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                          src="/00 - Pictures/Copia di _APA0021.jpg"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/00 - Pictures/Copia di _APA0054.jpg"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/01 - Product Pictures/Copia di QURI5192.jpg"
+                          alt=""
+                          className="h-full w-full object-cover object-center"
+                        />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img
+                          src="/01 - Product Pictures/Copia di QURI5184.jpg"
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
