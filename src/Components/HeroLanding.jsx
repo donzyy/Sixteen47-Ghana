@@ -7,21 +7,21 @@ import { Link } from 'react-router-dom'
 function HeroLanding() {
     const carouselData = [
         {
-            imageUrl: '/public/00 - Pictures/Copia di _DSF0205.jpg',
+            imageUrl: '/00 - Pictures/Copia di _DSF0205.jpg',
             title: 'Discover the Latest Collection',
             description: 'Explore our new arrivals and find the perfect pieces for your wardrobe.',
             buttonLink: '/',
             buttonLinkDescription: 'Do something here',
         },
         {
-            imageUrl: '/public/00 - Pictures/Copia di _DSF0238.jpg',
+            imageUrl: '/00 - Pictures/Copia di _DSF0238.jpg',
             title: 'Discover the Latest Video',
             description: 'Explore our new arrivals and find the perfect pieces for your wardrobe.',
             buttonLink: '/',
             buttonLinkDescription: 'Do something here and thats it.',
         },
         {
-            imageUrl: '/public/00 - Pictures/Copia di _DSF0275.jpg',
+            imageUrl: '/00 - Pictures/Copia di _DSF0275.jpg',
             title: 'Discover the Latest Video',
             description: 'Explore our new arrivals and find the perfect pieces for your wardrobe.',
             buttonLink: '/',
