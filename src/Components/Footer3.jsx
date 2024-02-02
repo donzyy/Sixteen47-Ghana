@@ -7,15 +7,16 @@ function Footer3() {
     const footerNav ={
         QuickLink1: [
             {name: 'Home', path: '/'},
-            {name: 'About Us', path: '/'},
-            {name: 'Corporate Responsibility', path: '/'},
-            {name: 'News', path: '/'},
+            {name: 'About Us', path: '/aboutus'},
+            {name: 'Corporate Responsibility', path: '/corporateresponsibility'},
+            {name: 'News', path: '/d'},
         ],
         QuickLink2: [
-            {name: 'Gallery', path: ''},
-            {name: 'Contact Us', path: ''},
-            {name: 'FAQ', path: ''},
-            {name: 'Get a Quote', path: ''},
+            {name: 'Gallery', path: '/gallery'},
+            {name: 'Contact Us', path: '/contactus'},
+            {name: 'FAQ', path: '/faq'},
+            {name: 'Get a Quote', path: '/quote'},
+            {name: 'Meet the team', path: '/team'},
         ],
         companyInformation: [
             {Email: 'infosixteen47@gmail.com'},

@@ -8,6 +8,9 @@ import Gallery from "./Pages/Gallery/Gallery"
 import FAQ from "./Pages/FAQ/FAQ"
 import NewsMain from "./Pages/News/NewsMain"
 import NewsDetails from "./Pages/News/NewsDetails"
+import CorporateResponsibility from "./Pages/CorporateResponsibility/CorporateResponsibility"
+import Team from "./Pages/Team/Team"
+import GetQuote from "./Pages/GetQuote/GetQuote"
 
 
 function App() {
@@ -17,12 +20,15 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="aboutus" element={<AboutUs /> } />
-        <Route path="contactus" element={<ContactUs /> } />
+        <Route path="/aboutus" element={<AboutUs /> } />
+        <Route path="/contactus" element={<ContactUs /> } />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<NewsMain/>} /> 
         <Route path="/newsdetail" element={<NewsDetails/>} />
+        <Route path="/corporateresponsibility" element={<CorporateResponsibility/>}/>
+        <Route path="/team" element={<Team />}/>
+        <Route path="/quote" element={<GetQuote />}/>
         
 
         <Route path="*" element = {< NotFound />} />

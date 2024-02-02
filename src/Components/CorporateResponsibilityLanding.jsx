@@ -65,7 +65,7 @@ function CorporateResponsibilityLanding() {
             </div>
             
             <div className='mt-10 flex items-center justify-center gap-x-6'>
-                    <Link className='bg-SixteenBlack text-white hover:bg-SixteenGold rounded px-4 py-4' to={''}>Read More</Link>
+                    <Link className='bg-SixteenBlack text-white hover:bg-SixteenGold rounded px-4 py-4' to={'/corporateresponsibility'}>Read More</Link>
                 </div>
         </div>
       </div>

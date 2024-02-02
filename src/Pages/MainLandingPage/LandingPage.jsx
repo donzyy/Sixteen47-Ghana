@@ -20,7 +20,7 @@ function LandingPage() {
     <DefaultLayout>
 
       {/* HeroLanding */}
-      <HeroLanding />
+      {/* <HeroLanding /> */}
       {/* HeroLanding */}
 
       {/* AboutUsLanding */}

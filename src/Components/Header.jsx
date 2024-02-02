@@ -10,11 +10,11 @@ function Header() {
 
   const headerNav = [
     {title: "Home", path: "/"},
-    {title: "About Us", path: "/"},
-    {title: "Corporate Responsibility", path:"/"},
-    {title: "News", path:"/"},
-    {title: "Gallery", path:"/"},
-    {title: "Contact Us", path:"/"}
+    {title: "About Us", path: "/aboutus"},
+    {title: "Corporate Responsibility", path:"/corporateresponsibility"},
+    {title: "News", path:"/d"},
+    {title: "Gallery", path:"/gallery"},
+    {title: "Contact Us", path:"/contactus"}
   ]
  
 
@@ -62,7 +62,7 @@ function Header() {
               ))}
               {/* Move the "Get a Quote" button inside the mobile view menu */}
               <li className='py-3 text-center font-bold text-white bg-SixteenGold rounded-md shadow lg:hidden'>
-                <Link to='/faq'>
+                <Link to='/quote'>
                   <button>
                     Get a Quote
                   </button>
@@ -72,7 +72,7 @@ function Header() {
       </div>
 
       <div className='hidden lg:inline-block'>
-        <Link to="/faq" className='py-3 px-4 font-bold text-white bg-SixteenGold rounded-md shadow'>
+        <Link to="/quote" className='py-3 px-4 font-bold text-white bg-SixteenGold rounded-md shadow'>
           <button>
             Get a Quote
           </button>

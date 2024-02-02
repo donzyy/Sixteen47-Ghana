@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function AboutUsLanding() {
   const aboutUsInfo = {
@@ -24,12 +25,12 @@ function AboutUsLanding() {
           </div>
           ))}
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
+            <Link
+              to={'/aboutus'}
               className="rounded-sm bg-SixteenGold px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-SixteenGold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-SixteenBlack"
             >
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
