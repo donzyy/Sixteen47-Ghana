@@ -10,6 +10,7 @@ import CorporateResponsibilityLanding from '../../Components/CorporateResponsibi
 import HeroLanding from '../../Components/HeroLanding'
 import NewsLanding from '../../Components/NewsLanding'
 import LogoCloud2 from '../../Components/LogoCloud2'
+import HeroLanding2 from '../../Components/HeroLanding2'
 
 
 function LandingPage() {
@@ -21,6 +22,7 @@ function LandingPage() {
 
       {/* HeroLanding */}
       {/* <HeroLanding /> */}
+      <HeroLanding2 />
       {/* HeroLanding */}
 
       {/* AboutUsLanding */}
