@@ -16,8 +16,8 @@ const HeaderTitleAboutUs = () => {
       <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">About Us</h1>
         <p className="mt-6 max-w-3xl text-xl text-indigo-100">
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel
-          lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+        A committed young entrepreneur is making significant contributions to the growth of Ghana's manufacturing sector;
+        Sixteen47 Ghana exemplifies dedication and hard work.
         </p>
       </div>
     </div>
