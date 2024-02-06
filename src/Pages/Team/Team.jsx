@@ -23,7 +23,7 @@ function Team() {
       positionDescription: 'Fredrick has qualifications in Bsc Business Administration. He has on-hand job experience at GIZ Training ( I.E, Production, compliance) and a total of 4 years of work experience.',
     },
     {
-      imageSrc: '/public/TeamImages/PhilipSixteen47.jpg',
+      imageSrc: '/TeamImages/PhilipSixteen47.jpg',
       name: 'Philip Nutifafa',
       title: 'Merchandiser',
       positionDescription: 'An astute Merchandizer with over 3 years of experience. Helped to execute projects for brands like GTP, Wear Ghana, and Sixteen47 to mention a few. A holder of intermediate certificate in Export Management. An affable and agile straight to the point individual who is able to blend multi talents into the delivery of both long and short term solutions in any garment manufacturing space.',
