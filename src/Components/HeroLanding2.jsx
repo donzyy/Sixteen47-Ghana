@@ -16,24 +16,31 @@ function HeroLanding2() {
     {
       imageUrl: '/00 - Pictures/Copia di _DSF0205.jpg',
       /* imageUrl: '/leio-mclaren-9NVEXH3Q4fg-unsplash.jpg', */
-      heroTitle: 'Hero Title 1',
-      heroDescription: 'Hero Description 1',
-      buttonLink: '/aboutus',
-      buttonLabel: 'Button 1',
+      heroTitle: 'Welcome to Sixteen47 Ghana',
+      heroDescription: 'Sixteen47 Ghana is a company exemplifies dedication and hard work',
+      buttonLink: '/quote',
+      buttonLabel: 'Get a Quote',
     },
     {
       imageUrl: '/00 - Pictures/Copia di _DSF0238.jpg',
-      heroTitle: 'Hero Title 2',
-      heroDescription: 'Hero Description 2',
-      buttonLink: '/aboutus',
-      buttonLabel: 'Button 2',
+      heroTitle: 'What is new at Sixteen47 Ghana?',
+      heroDescription: 'Stay updated with the latest news in our industry.',
+      buttonLink: '/d',
+      buttonLabel: 'Read More',
     },
     {
       imageUrl: '/00 - Pictures/Copia di _DSF0275.jpg',
-      heroTitle: 'Hero Title 3',
-      heroDescription: 'Hero Description 3',
-      buttonLink: '/aboutus',
-      buttonLabel: 'Button 3',
+      heroTitle: 'What is it like to work at sixteen47 Ghana?',
+      heroDescription: 'Every One Is Welcome',
+      buttonLink: '/team',
+      buttonLabel: 'Meet The Team',
+    },
+    {
+      imageUrl: '/combined.png',
+      heroTitle: 'Want To View Our Products?',
+      heroDescription: 'Visit Sixteen47Store',
+      buttonLink: 'https://sixteen47store.com/',
+      buttonLabel: 'Sixteen47Store',
     },
   ]
 
