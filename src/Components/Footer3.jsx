@@ -39,7 +39,7 @@ function Footer3() {
            {copyInfo:`© ${new Date().getFullYear()} Sixteen47 Ghana. All rights reserved.`,}
         ],
         logoAndDescription: [
-            {logo:"/sixteen47.jpg", description:'Sixteen47 is an online platform that connects business and plenty extra stuff.'}
+            {logo:"/sixteen47.jpg", description:"Sixteen47: 'Good Cloathes Made In A Good Way.'"}
         ],
     }
 
