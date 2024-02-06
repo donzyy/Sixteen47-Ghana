@@ -85,21 +85,24 @@ function GalleryLanding() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/01 - Product Pictures/Copia di QURI5368.jpg"
+                          /* src="/01 - Product Pictures/Copia di QURI5368.jpg" */
+                          src='https://sixteen47store.com/cdn/shop/files/IMG_2721_750x.jpg?v=1701957818'
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/00 - Pictures/Copia di _APA0021.jpg"
+                          /* src="/00 - Pictures/Copia di _APA0021.jpg" */
+                          src='https://sixteen47store.com/cdn/shop/files/pink.jpg?v=1702377516'
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/00 - Pictures/Copia di _APA0054.jpg"
+                          /* src="/00 - Pictures/Copia di _APA0054.jpg" */
+                          src='https://sixteen47store.com/cdn/shop/files/kira.jpg?v=1706522989'
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -108,14 +111,16 @@ function GalleryLanding() {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/01 - Product Pictures/Copia di QURI5192.jpg"
+                          /* src="/01 - Product Pictures/Copia di QURI5192.jpg" */
+                          src='https://sixteen47store.com/cdn/shop/files/IMG_1840-2_750x.jpg?v=1695807476'
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src="/01 - Product Pictures/Copia di QURI5184.jpg"
+                          /* src="/01 - Product Pictures/Copia di QURI5184.jpg" */
+                          src='https://sixteen47store.com/cdn/shop/files/IMG_2011-2_750x.jpg?v=1696328938'
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
