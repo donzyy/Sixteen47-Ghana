@@ -1,5 +1,5 @@
-import React from 'react'
-import { BsDiscord, BsFan, BsFillMegaphoneFill, BsGithub, BsPlus } from 'react-icons/bs'
+import React, {useState} from 'react'
+import { BsDash, BsPlus } from 'react-icons/bs'
 
 function CorporateCodeOfConduct() {
     const integrations = [
@@ -20,6 +20,16 @@ function CorporateCodeOfConduct() {
     
         },
     ]
+
+    const [showDesc, setShowDesc] = useState(Array(integrations.length).fill(false));
+
+    const toggleDescription = (index) => {
+        const newShowDesc = [...showDesc];
+        newShowDesc[index] = !newShowDesc[index];
+        setShowDesc(newShowDesc);
+      };
+
+
   return (
     <section className="py-16">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
@@ -36,17 +46,12 @@ function CorporateCodeOfConduct() {
                                     {/* {item.icon} */}
                                     <img src={item.icon} alt="" />
                                     <h4 className="text-gray-800 font-semibold">{item.title}</h4>
-                                    <p className="text-gray-600 text-sm">{item.desc}</p>
+                                   {showDesc[idx] && <p className="text-gray-600 text-sm">{item.desc}</p>}
                                 </div>
-                                <button className="text-gray-700 text-sm border rounded-lg px-3 py-2 duration-150 hover:bg-gray-100">
-                                    <BsPlus size={24} />
+                                <button onClick={() => toggleDescription(idx)} className="text-gray-700 text-sm border rounded-lg px-3 py-2 duration-150 hover:bg-gray-100" >
+                                    {showDesc[idx] ? <BsDash size={24} /> : <BsPlus size={24} />}
                                 </button>
                             </div>
-                            {/* <div className="py-5 px-4 border-t text-right">
-                                <a href="javascript:void(0)" className="text-indigo-600 hover:text-indigo-500 text-sm font-medium">
-                                    View integration
-                                </a>
-                            </div> */}
                         </li>
                     ))
                 }
