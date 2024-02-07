@@ -17,8 +17,7 @@ function HeaderTitleMeetTeam() {
       <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Meet The Team</h1>
         <p className="mt-6 max-w-3xl text-xl text-indigo-100">
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel
-          lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+        Our team at Sixteen47 is a global assembly, with members from diverse corners of the world, each contributing their expertise and enthusiasm for ethical manufacturing.
         </p>
       </div>
     </div>

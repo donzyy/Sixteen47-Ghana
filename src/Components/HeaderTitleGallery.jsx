@@ -17,8 +17,8 @@ const HeaderTitleGallery = () => {
       <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Gallery</h1>
         <p className="mt-6 max-w-3xl text-xl text-indigo-100">
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel
-          lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+        Immerse yourself in a visual journey as we showcase a curated selection of captivating moments captured in our gallery. 
+        From stunning landscapes to breathtaking events, each image tells a unique story. Discover the artistry, creativity, and beauty that defines our gallery collection at Sixteen47.
         </p>
       </div>
     </div>

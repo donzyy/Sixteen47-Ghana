@@ -9,7 +9,7 @@ function HeaderTitleCorporateResponsibility() {
           /* src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" */
           /* src='/Images/Sixteen47-Ghana-Header3.jpg' */
           /* src='http://localhost:1337/uploads/Sixteen47_Ghana_Header3_7d4bc43124.jpg' */
-          src='/00 - Pictures/Copia di _DSF0528.jpg'
+          src='/CorporateResponsibility.jpg'
           alt=""
         />
         <div className="absolute inset-0 bg-SixteenGold mix-blend-multiply" aria-hidden="true" />

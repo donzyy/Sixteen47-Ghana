@@ -14,8 +14,7 @@ function HeaderTitleGetAQuote() {
       <div className="relative mx-auto max-w-7xl py-24 px-6 sm:py-32 lg:px-8">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">Get A Quote</h1>
         <p className="mt-6 max-w-3xl text-xl text-indigo-100">
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel
-          lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+        Unlock personalized solutions tailored to your needs by requesting a quote from Sixteen47. Whether you're looking for services, products, or solutions, our team is ready to assist you. Take the first step towards your goals with a customized quote that aligns with your requirements.
         </p>
       </div>
     </div>
