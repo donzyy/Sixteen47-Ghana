@@ -5,3 +5,33 @@
   .swiper-pagination-bullet-active {
     background-color: white; /* Change 'green' to your desired color */
   }
+
+  
+  
+  @media (max-width: 639px) {
+    /* Adjust height for mobile screens */
+    .mySwiper {
+      height: 420px; /* Adjust to your desired height for mobile */
+    }
+  }
+
+  @media (max-width: 639px) {
+    .mySwiper img {
+      height: 420px; /* Adjust to your desired image height for mobile */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+  }
+
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .mySwiper img {
+      height: 690px; /* Adjust to your desired image height for tablets */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1059px) {
+    .mySwiper img {
+      height: 890px; /* Adjust to your desired image height for tablets */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+  }
