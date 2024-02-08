@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BsFacebook, BsInstagram, BsTiktok, BsTwitterX, BsYoutube } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
@@ -42,6 +42,11 @@ function Footer3() {
             {logo:"/sixteen47.jpg", description:"Sixteen47: 'Good Cloathes Made In A Good Way.'"}
         ],
     }
+
+    useEffect(()=> {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+      }, [])
 
   return (
     <footer className='bg-SixteenBlack' aria-labelledby='footer-heading'>

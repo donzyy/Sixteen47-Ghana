@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { BsList, BsX } from 'react-icons/bs';
 import { Link } from 'react-router-dom'
 import Banner from './Banner';
@@ -16,6 +16,11 @@ function Header() {
     {title: "Gallery", path:"/gallery"},
     {title: "Contact Us", path:"/contactus"}
   ]
+
+  useEffect(()=> {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, [])
  
 
   return (
