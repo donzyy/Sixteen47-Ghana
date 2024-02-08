@@ -25,8 +25,8 @@ function HeroLanding2() {
       imageUrl: '/00 - Pictures/Copia di _DSF0238.jpg',
       heroTitle: 'What is new at Sixteen47 Ghana?',
       heroDescription: 'Stay updated with the latest news in our industry.',
-      buttonLink: '/d',
-      buttonLabel: 'Read More',
+      buttonLink: 'https://www.flickr.com/photos/143225851@N05/with/53201158675',
+      buttonLabel: 'See More',
     },
     {
       imageUrl: '/00 - Pictures/Copia di _DSF0275.jpg',
