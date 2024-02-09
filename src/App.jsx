@@ -11,6 +11,7 @@ import NewsDetails from "./Pages/News/NewsDetails"
 import CorporateResponsibility from "./Pages/CorporateResponsibility/CorporateResponsibility"
 import Team from "./Pages/Team/Team"
 import GetQuote from "./Pages/GetQuote/GetQuote"
+import Future from "./Pages/FutureOfSixteen47/Future"
 
 
 function App() {
@@ -22,13 +23,14 @@ function App() {
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/aboutus" element={<AboutUs /> } />
         <Route path="/contactus" element={<ContactUs /> } />
-        <Route path="/faq" element={<FAQ />} />
+        {/* <Route path="/faq" element={<FAQ />} /> */}
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/news" element={<NewsMain/>} /> 
         <Route path="/newsdetail" element={<NewsDetails/>} />
         <Route path="/corporateresponsibility" element={<CorporateResponsibility/>}/>
         <Route path="/team" element={<Team />}/>
         <Route path="/quote" element={<GetQuote />}/>
+        <Route path="/future" element= {<Future />} />
         
 
         <Route path="*" element = {< NotFound />} />

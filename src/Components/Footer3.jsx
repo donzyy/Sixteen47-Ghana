@@ -14,7 +14,7 @@ function Footer3() {
         QuickLink2: [
             {name: 'Gallery', path: '/gallery'},
             {name: 'Contact Us', path: '/contactus'},
-            {name: 'FAQ', path: '/faq'},
+            {name: 'Future', path: '/future'},
             {name: 'Get a Quote', path: '/quote'},
             {name: 'Meet the team', path: '/team'},
         ],
