@@ -25,9 +25,9 @@ function NotFound() {
         >
           Go back home
         </Link>
-        <a href="#" className="text-sm font-semibold text-SixteenGold hover:text-SixteenBlack">
+        <Link to='/contactus' className="text-sm font-semibold text-SixteenGold hover:text-SixteenBlack">
           Contact support <span aria-hidden="true">&rarr;</span>
-        </a>
+        </Link>
       </div>
     </div>
   </main>
