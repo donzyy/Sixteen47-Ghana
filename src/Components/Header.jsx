@@ -12,7 +12,7 @@ function Header() {
     {title: "Home", path: "/"},
     {title: "About Us", path: "/aboutus"},
     {title: "Corporate Responsibility", path:"/corporateresponsibility"},
-    {title: "News", path:"/d"},
+    {title: "News", path:"/news"},
     {title: "Gallery", path:"/gallery"},
     {title: "Contact Us", path:"/contactus"}
   ]

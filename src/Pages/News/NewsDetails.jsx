@@ -1,64 +1,33 @@
 import React from 'react'
 import DefaultLayout from '../../Layout/DefaultLayout'
+import { useLocation, useParams } from 'react-router-dom'
 
 function NewsDetails() {
+  //const {id} = useParams();
+  const { state } = useLocation();
+  const { coverImg, broadcastTitle, broadcastContent, broadcastImageDescription } = state;
+
+  
   return (
     <DefaultLayout>
-    <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-      {/* Blog Title */}
-      <h1 className="text-4xl font-bold text-gray-800 mt-8 mb-4">Exploring the Wonders of React</h1>
+      <div className='w-full pb-10 bg-white'>
+        <div className='max-w-[1240px] mx-auto'>
+          
+          <div className=' grid lg:grid-cols-3 sm:grid-cols-3 xsm:grid-cols-1 md:gap-8 sm:gap-y-8 xsm:gap-y-8 px-4 sm:pt-20 md:mt-0 xsm:pt-20 text-black'>
 
-      {/* Blog Image */}
-      <img
-        className="w-full h-64 object-cover object-center rounded-md mb-6"
-        src="https://placekitten.com/1200/600"
-        alt="Blog Cover"
-      />
+            
+            <div className='col-span-2'>
+              <img className='h-56 w-full object-cover' src={`http://localhost:1337${coverImg.data.attributes.url}`} alt={broadcastImageDescription} />
+              <h1 className='font-bold text-2xl my-1 pt-5'>{broadcastTitle}</h1>
+              <div className='pt-5'>
+                <p>{broadcastContent}</p>
+              </div>
+            </div>
+           
 
-      {/* Blog Description */}
-      <div className="prose max-w-none mb-8">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum enim ut dui bibendum, in varius
-          augue aliquet. Donec tincidunt est vel odio aliquet, ut convallis turpis posuere.
-        </p>
-        <p>
-          Sed condimentum nunc vel tortor venenatis, sit amet ultrices velit commodo. Fusce vestibulum odio et
-          lobortis bibendum. Proin ut mi nec turpis bibendum pharetra. Nam vel facilisis lectus.
-        </p>
-        {/* Add more paragraphs as needed */}
+          </div>
+        </div>
       </div>
-
-      {/* Recommended Reads */}
-      <div>
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Recommended Reads</h2>
-        <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <li>
-            <img
-              className="w-full h-40 object-cover object-center rounded-md mb-2"
-              src="https://placekitten.com/800/500"
-              alt="Recommended Read 1"
-            />
-            <p className="text-gray-600">10 Tips for Efficient React Development</p>
-          </li>
-          <li>
-            <img
-              className="w-full h-40 object-cover object-center rounded-md mb-2"
-              src="https://placekitten.com/801/500"
-              alt="Recommended Read 2"
-            />
-            <p className="text-gray-600">Building Scalable React Applications</p>
-          </li>
-          <li>
-            <img
-              className="w-full h-40 object-cover object-center rounded-md mb-2"
-              src="https://placekitten.com/802/500"
-              alt="Recommended Read 3"
-            />
-            <p className="text-gray-600">React Hooks: A Comprehensive Guide</p>
-          </li>
-        </ul>
-      </div>
-    </div>
     </DefaultLayout>
   )
 }

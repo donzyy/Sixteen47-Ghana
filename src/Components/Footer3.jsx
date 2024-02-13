@@ -9,7 +9,7 @@ function Footer3() {
             {name: 'Home', path: '/'},
             {name: 'About Us', path: '/aboutus'},
             {name: 'Corporate Responsibility', path: '/corporateresponsibility'},
-            {name: 'News', path: '/d'},
+            {name: 'News', path: '/news'},
         ],
         QuickLink2: [
             {name: 'Gallery', path: '/gallery'},
