@@ -17,7 +17,7 @@ function NewsDetails() {
 
             
             <div className='col-span-2'>
-              <img className='h-56 w-full object-cover' src={`http://localhost:1337${coverImg.data.attributes.url}`} alt={broadcastImageDescription} />
+              <img className='h-56 w-full object-cover' src={`https://lobster-app-yyv7h.ondigitalocean.app${coverImg.data.attributes.url}`} alt={broadcastImageDescription} />
               <h1 className='font-bold text-2xl my-1 pt-5'>{broadcastTitle}</h1>
               <div className='pt-5'>
                 <p>{broadcastContent}</p>

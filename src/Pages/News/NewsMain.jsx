@@ -8,7 +8,7 @@ function NewsMain() {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:1337/api/broadcasts?populate=*';
+    const apiUrl = 'https://lobster-app-yyv7h.ondigitalocean.app/api/broadcasts?populate=*';
 
     axios.get(apiUrl)
       .then((response) => {
@@ -37,7 +37,7 @@ function NewsMain() {
             {news.map((items) => (
             <Link to={`/newsdetail/${items.id}`} key={items.id} state={items.attributes}>
             <div className='bg-white rounded-xl overflow-hidden drop-shadow-md'>
-              <img className='h-56 w-full object-cover' src={`http://localhost:1337${items.attributes.coverImg.data.attributes.url}`} alt={items.attributes.broadcastImageDescription} />
+              <img className='h-56 w-full object-cover' src={`https://lobster-app-yyv7h.ondigitalocean.app${items.attributes.coverImg.data.attributes.url}`} alt={items.attributes.broadcastImageDescription} />
               <div className='p-8'>
                 <h3 className='font-bold text-2xl my-1'>{items.attributes.broadcastTitle}</h3>
                 <p className='text-gray-600 text-xl'> {items.attributes.broadcastDescription}</p>
