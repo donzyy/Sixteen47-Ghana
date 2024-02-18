@@ -12,6 +12,8 @@ import CorporateResponsibility from "./Pages/CorporateResponsibility/CorporateRe
 import Team from "./Pages/Team/Team"
 import GetQuote from "./Pages/GetQuote/GetQuote"
 import Future from "./Pages/FutureOfSixteen47/Future"
+import NewsDetails2 from "./Pages/News/NewsDetails2"
+import NewsMain2 from "./Pages/News/NewsMain2"
 
 
 function App() {
@@ -25,8 +27,8 @@ function App() {
         <Route path="/contactus" element={<ContactUs /> } />
         {/* <Route path="/faq" element={<FAQ />} /> */}
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/news" element={<NewsMain/>} /> 
-        <Route path="/newsdetail/:id" element={<NewsDetails/>} />
+        <Route path="/news" element={<NewsMain2/>} /> 
+        <Route path="/newsdetail/:id" element={<NewsDetails2/>} />
         <Route path="/corporateresponsibility" element={<CorporateResponsibility/>}/>
         <Route path="/team" element={<Team />}/>
         <Route path="/quote" element={<GetQuote />}/>
