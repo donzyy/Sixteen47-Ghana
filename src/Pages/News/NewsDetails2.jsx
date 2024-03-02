@@ -17,7 +17,7 @@ function NewsDetails2() {
             <p>{broadcastContent}</p>
             <p></p>
             <figure className='mt-2 w-auto h-auto rounded-lg overflow-hidden ring-1 ring-black/5'>
-              <img src={`https://lobster-app-yyv7h.ondigitalocean.app${coverImg.data.attributes.url}`} alt={broadcastImageDescription} />
+              <img src={`https://sixteen-strapi-cms-jwfvf.ondigitalocean.app${coverImg.data.attributes.url}`} alt={broadcastImageDescription} />
             </figure>
             <figcaption className='mt-2 text-center'>{broadcastImageDescription}</figcaption>
           </article>

@@ -9,7 +9,8 @@ function NewsMain2() {
     const [news, setNews] = useState([]);
 
   useEffect(() => {
-    const apiUrl = 'https://lobster-app-yyv7h.ondigitalocean.app/api/broadcasts?populate=*';
+    /* const apiUrl = 'https://lobster-app-yyv7h.ondigitalocean.app/api/broadcasts?populate=*'; */
+    const apiUrl = 'https://sixteen-strapi-cms-jwfvf.ondigitalocean.app/api/broadcasts?populate=*'
 
     axios.get(apiUrl)
       .then((response) => {
@@ -37,7 +38,7 @@ function NewsMain2() {
                 <div key={items.id} className='mb-6 flex flex-wrap'>
                     <div className='mb-6 ml-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-3/12'>
                         <div className='relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg'>
-                            <img className='"w-full' src={`https://lobster-app-yyv7h.ondigitalocean.app${items.attributes.coverImg.data.attributes.url}`} alt={items.attributes.broadcastImageDescription} />
+                            <img className='"w-full' src={`https://sixteen-strapi-cms-jwfvf.ondigitalocean.app${items.attributes.coverImg.data.attributes.url}`} alt={items.attributes.broadcastImageDescription} />
                             <Link to={`/newsdetail/${items.id}`} state={items.attributes}>
                                 <div className='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[#d3e05c44]'></div>
                             </Link>
